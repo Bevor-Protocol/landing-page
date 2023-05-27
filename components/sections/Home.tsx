@@ -1,4 +1,6 @@
 import Image from "next/image";
+import classNames from "classnames";
+
 import Button from "@/components/elements/Button";
 import styles from "@/styles/page.module.css";
 import { Arrow } from "@/assets";
@@ -6,7 +8,9 @@ import { Arrow } from "@/assets";
 export default (): JSX.Element => {
   return (
     <section id="home">
-      <div className={styles.section_div_row}>
+      <div
+        className={classNames(styles.section_div_row, styles.pad_top_nav, styles.pad_bottom_nav)}
+      >
         <div className={styles.home_text}>
           <h1 className="text-grad-light">
             Ensuring <br /> quality audits

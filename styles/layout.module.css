@@ -75,6 +75,9 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 40px 0;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .footer_div p {
@@ -85,6 +88,7 @@
 .footer_items {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -95,4 +99,17 @@
 
 .footer_items a:hover {
   opacity: 0.75;
+}
+
+@media screen and (max-width: 640px) {
+  .nav_div {
+    justify-content: center;
+  }
+  .nav_items {
+    display: none;
+  }
+
+  .footer_div div {
+    width: 100%;
+  }
 }
