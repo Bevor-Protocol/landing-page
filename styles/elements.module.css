@@ -1,4 +1,5 @@
 .btn {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -7,10 +8,8 @@
 
 .btn.light {
   background: var(--text-light);
-  color: #000626;
 }
 
 .btn.dark {
   background: var(--text-dark);
-  color: #000626;
 }

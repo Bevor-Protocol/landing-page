@@ -61,3 +61,38 @@
 .nav_item:hover::after {
   opacity: 1;
 }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.footer_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer_div p {
+  font-size: 0.85em;
+  opacity: 0.5;
+}
+
+.footer_items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer_items a {
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.footer_items a:hover {
+  opacity: 0.75;
+}

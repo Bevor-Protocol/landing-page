@@ -65,6 +65,12 @@ module.exports = {
         "import/no-named-as-default-member": OFF,
       },
     },
+    {
+      files: ["assets/*.tsx"],
+      rules: {
+        "max-len": [OFF]
+      },
+    },
   ],
   env: {
     browser: true,
