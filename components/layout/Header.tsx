@@ -5,7 +5,7 @@ import Button from "@/components/elements/Button";
 
 export default (): JSX.Element => {
   return (
-    <nav className={styles.nav}>
+    <nav>
       <div className={styles.nav_div}>
         <div className={styles.nav_image}>
           <Image src="/name.png" alt="company name" fill={true} sizes="any" />

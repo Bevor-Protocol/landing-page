@@ -3,7 +3,7 @@ import styles from "@/styles/layout.module.css";
 
 export default (): JSX.Element => {
   return (
-    <footer className={styles.footer}>
+    <footer>
       <div className={styles.footer_div}>
         <div>
           <p>de-risk. incentivize. audit. decentralize.</p>
