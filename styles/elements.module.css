@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn.light {
+  background: var(--text-light);
+  color: #000626;
+}
+
+.btn.dark {
+  background: var(--text-dark);
+  color: #000626;
+}

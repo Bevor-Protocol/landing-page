@@ -1,0 +1,63 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.nav_div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.nav_image {
+  position: relative;
+  height: 30px;
+  aspect-ratio: 4.8 / 1;
+}
+
+.nav_items {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.nav_item {
+  opacity: 0.5;
+  position: relative;
+  display: inline-block;
+  height: 1.75em;
+  cursor: pointer;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.nav_item:hover {
+  opacity: 1;
+}
+
+.nav_item.active {
+  opacity: 1;
+}
+
+.nav_item::after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 20px;
+  background-color: #E0E4F0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.nav_item.active::after,
+.nav_item:hover::after {
+  opacity: 1;
+}

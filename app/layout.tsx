@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
-import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { Metadata } from "next";
 
-const inter = Inter({ subsets: ["latin"] });
+const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["500", "700", "800"] });
 
 export const metadata: Metadata = {
   title: "Bevor Protocol",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 export default ({ children }: { children: React.ReactNode }): JSX.Element => {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={jakarta.className}>{children}</body>
     </html>
   );
 };
