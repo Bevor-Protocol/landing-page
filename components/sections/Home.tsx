@@ -15,11 +15,7 @@ export default (): JSX.Element => {
           <p className="text-grad-light">
             On-chain solution for establishing terms and carrying out smart contract audits
           </p>
-          <a
-            href="https://app.gitbook.com/o/WNN54NUM2ExxQYCIchF2/s/apqwSQScAhZQFKwiJzwx"
-            referrerPolicy="no-referrer"
-            target="_blank"
-          >
+          <a href="https://docs.bevor.io" referrerPolicy="no-referrer" target="_blank">
             <Button theme="light">
               <div className={styles.home_btn}>
                 <span className="text-grad-dark">Learn More</span>

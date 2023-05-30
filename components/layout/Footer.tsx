@@ -12,11 +12,7 @@ export default (): JSX.Element => {
           <a href="https://twitter.com/BevorProtocol" referrerPolicy="no-referrer" target="_blank">
             <Twitter height="1.5rem" width="1.5rem" fill="white" />
           </a>
-          <a
-            href="https://app.gitbook.com/o/WNN54NUM2ExxQYCIchF2/s/apqwSQScAhZQFKwiJzwx"
-            referrerPolicy="no-referrer"
-            target="_blank"
-          >
+          <a href="https://docs.bevor.io" referrerPolicy="no-referrer" target="_blank">
             <Gitbook height="1.5rem" width="1.5rem" fill="white" />
           </a>
           <a href="https://github.com/Bevor-Protocol" referrerPolicy="no-referrer" target="_blank">
