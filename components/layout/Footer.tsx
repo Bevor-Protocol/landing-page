@@ -22,7 +22,7 @@ export default (): JSX.Element => {
           <a href="https://github.com/Bevor-Protocol" referrerPolicy="no-referrer" target="_blank">
             <Github height="1.5rem" width="1.5rem" fill="white" />
           </a>
-          <a href="#" referrerPolicy="no-referrer" target="_blank">
+          <a href="https://discord.gg/MDfNgatN" referrerPolicy="no-referrer" target="_blank">
             <Discord height="1.5rem" width="1.5rem" fill="white" />
           </a>
         </div>

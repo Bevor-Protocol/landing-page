@@ -1,5 +1,4 @@
 import Image from "next/image";
-import classNames from "classnames";
 
 import Button from "@/components/elements/Button";
 import styles from "@/styles/page.module.css";
@@ -8,9 +7,7 @@ import { Arrow } from "@/assets";
 export default (): JSX.Element => {
   return (
     <section id="home">
-      <div
-        className={classNames(styles.section_div_row, styles.pad_top_nav, styles.pad_bottom_nav)}
-      >
+      <div className={styles.section_div}>
         <div className={styles.home_text}>
           <h1 className="text-grad-light">
             Ensuring <br /> quality audits
@@ -26,7 +23,7 @@ export default (): JSX.Element => {
             <Button theme="light">
               <div className={styles.home_btn}>
                 <span className="text-grad-dark">Learn More</span>
-                <Arrow height="0.8rem" width="0.8rem" />
+                <Arrow height="0.75rem" width="0.75rem" />
               </div>
             </Button>
           </a>
