@@ -25,7 +25,7 @@ export default (): JSX.Element => {
           </a>
         </div>
         <div className={styles.home_logo}>
-          <Image src="/logo.png" alt="logo" fill={true} sizes="any" />
+          <Image src="/logo.png" alt="logo" fill={true} sizes="any" priority />
         </div>
       </div>
     </section>
