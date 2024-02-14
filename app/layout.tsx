@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Metadata } from "next";
 
@@ -48,7 +49,10 @@ export const metadata: Metadata = {
 export default ({ children }: { children: React.ReactNode }): JSX.Element => {
   return (
     <html lang="en">
-      <body className={jakarta.className}>{children}</body>
+      <body className={jakarta.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 };
